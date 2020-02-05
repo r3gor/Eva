@@ -7,6 +7,8 @@ package eva;
 public class Pregunta {
     private String enunciado;
     private String[] claves = {"", "", "", "", ""};
+    private String claveCorrecta;
+    private String claveSeleccionada;
 
     public Pregunta(String enunciado, String[] claves) {
         this.enunciado = enunciado;
@@ -14,6 +16,10 @@ public class Pregunta {
     }
 
     public Pregunta() {
+    }
+
+    boolean esCorrecto() {
+        return claveCorrecta.equals(claveSeleccionada);
     }
 
     public String getEnunciado() {
