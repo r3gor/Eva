@@ -1,5 +1,7 @@
 package eva;
 
+import java.util.Random;
+
 /**
  * @author Roger Ramos <yihsic at gmail.com>
  */
@@ -24,9 +26,21 @@ public class Examen {
         lectorPreguntas.finLector();
     }
 
+    public void reordenaPreguntas() {
+        Pregunta aux;
+        Random aleatorio = new Random(4234);
+        int random_index;
+        for (int i = 0; i < n_preguntas; i++) {
+            random_index = aleatorio.nextInt(preguntas.length);
+            aux = preguntas[i];
+            preguntas[i] = preguntas[random_index];
+            preguntas[random_index] = aux;
+        }
+    }
+
     public void imprimePreguntas() {
         for (int i = 0; i < n_preguntas; i++) {
-            System.out.println(preguntas[i].toString());
+            System.out.println((i + 1) + ". " + preguntas[i].toString());
             System.out.println("---------------------");
         }
     }
