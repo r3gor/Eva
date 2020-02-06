@@ -1,0 +1,10 @@
+Rpta: C
+Rpta: B
+Rpta: B
+Rpta: A
+Rpta: C
+Rpta: A
+Rpta: E
+Rpta: C
+Rpta: D
+Rpta: D
