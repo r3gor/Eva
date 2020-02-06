@@ -10,6 +10,8 @@ public class Examen {
     private Pregunta[] preguntas;
     private LectorPregunta lectorPreguntas;
     private int n_preguntas;
+    private int cantidadCorrectas;
+    private int cantidadIncorrectas;
 
     public Examen(int n_preguntas, String file) throws Exception {
         this.n_preguntas = n_preguntas;
