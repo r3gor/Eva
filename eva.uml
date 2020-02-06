@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>eva</OriginalElement>
+  <nodes>
+    <node x="259.0" y="0.0">eva.Pregunta</node>
+    <node x="0.0" y="0.0">eva.Examen</node>
+    <node x="253.0" y="356.0">eva.Eva</node>
+    <node x="0.0" y="356.0">eva.LectorPregunta</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="0.9165526675786594" x="205.5" y="245.12388059701493" />
+  <SelectedNodes>
+    <node>eva.Pregunta</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
