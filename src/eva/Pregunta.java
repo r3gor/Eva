@@ -19,7 +19,23 @@ public class Pregunta {
     }
 
     boolean esCorrecto() {
-        return claveCorrecta.equals(claveSeleccionada);
+        return claveCorrecta.equalsIgnoreCase(claveSeleccionada);
+    }
+
+    public String getClaveCorrecta() {
+        return claveCorrecta;
+    }
+
+    public void setClaveSeleccionada(String claveSeleccionada) {
+        this.claveSeleccionada = claveSeleccionada;
+    }
+
+    public void setClaveCorrecta(String claveCorrecta) {
+        this.claveCorrecta = claveCorrecta;
+    }
+
+    public String getClaveSeleccionada() {
+        return claveSeleccionada;
     }
 
     public String getEnunciado() {
